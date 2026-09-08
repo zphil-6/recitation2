@@ -24,7 +24,7 @@ public class Formatting {
      * @return the value as text, to two decimal places
      */
     public String twoPlaces(double value) {
-        return null;
+        return String.format("%.2f", value);
     }
 
     /**
@@ -36,7 +36,7 @@ public class Formatting {
      * @return the value as text, to four decimal places
      */
     public String fourPlaces(double value) {
-        return null;
+        return String.format("%.4f", value);
     }
 
     /**
@@ -52,6 +52,6 @@ public class Formatting {
      * @return the full sentence, with spice to four decimal places
      */
     public String spiceReport(String name, double spice) {
-        return null;
+        return String.format("Well %s, the spice value resulted in %.4f", name, spice);
     }
 }
