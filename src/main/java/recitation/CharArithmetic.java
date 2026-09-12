@@ -22,7 +22,7 @@ public class CharArithmetic {
      * @return its numeric value
      */
     public int letterCode(char c) {
-        return 0;
+        return c;
     }
 
     /**
@@ -37,6 +37,6 @@ public class CharArithmetic {
      * @return the character one code point after it
      */
     public char nextLetter(char c) {
-        return ' ';
+        return (char) (c+1);
     }
 }
